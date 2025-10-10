@@ -3,13 +3,18 @@
     "@abdulrysr/saudi-riyal-new-symbol-font": "^1.0.8"
   },
   "name": "https-github.com-bilaleahmed62-mojou-ai-pilot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "build:dev": "vite build --mode development",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "i18n:generate": "node scripts/i18n-generate-skeletons.mjs",
+  "i18n:sync": "node scripts/i18n-sync-keys.mjs",
+  "i18n:audit": "node scripts/i18n-audit.mjs",
+  "i18n:check": "tsx scripts/i18n-check.ts",
+  "i18n:coverage": "node scripts/i18n-coverage-report.mjs"
+}
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zambanum/https-github.com-bilaleahmed62-mojou-ai-pilot.git"
