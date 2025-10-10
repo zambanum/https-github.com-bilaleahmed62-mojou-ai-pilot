@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@abdulrysr/saudi-riyal-new-symbol-font": "^1.0.8"
+  },
+  "name": "https-github.com-bilaleahmed62-mojou-ai-pilot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zambanum/https-github.com-bilaleahmed62-mojou-ai-pilot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zambanum/https-github.com-bilaleahmed62-mojou-ai-pilot/issues"
+  },
+  "homepage": "https://github.com/zambanum/https-github.com-bilaleahmed62-mojou-ai-pilot#readme"
+}
