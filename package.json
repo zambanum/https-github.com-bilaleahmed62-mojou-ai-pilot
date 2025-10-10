@@ -15,6 +15,11 @@
   "i18n:check": "tsx scripts/i18n-check.ts",
   "i18n:coverage": "node scripts/i18n-coverage-report.mjs"
 }
+  "i18n:sync": "node scripts/i18n-sync-keys.mjs",
+  "i18n:audit": "node scripts/i18n-audit.mjs",
+  "i18n:check": "tsx scripts/i18n-check.ts",
+  "i18n:coverage": "node scripts/i18n-coverage-report.mjs"
+}
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zambanum/https-github.com-bilaleahmed62-mojou-ai-pilot.git"
