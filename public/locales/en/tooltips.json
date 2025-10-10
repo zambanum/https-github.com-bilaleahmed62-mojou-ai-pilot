@@ -1,0 +1,26 @@
+{
+  "general": {
+    "save": "Save changes",
+    "cancel": "Discard changes",
+    "delete": "Delete this item",
+    "edit": "Edit this item",
+    "export": "Export to file",
+    "filter": "Filter results",
+    "search": "Search items",
+    "refresh": "Refresh data"
+  },
+  "dashboard": {
+    "kpi_card": "Key performance indicator",
+    "chart_zoom": "Click to zoom",
+    "export_chart": "Export chart data"
+  },
+  "sales": {
+    "pipeline_drag": "Drag to move between stages",
+    "weighted_amount": "Amount × Probability",
+    "probability_auto": "Auto-calculated from stage"
+  },
+  "settings": {
+    "auto_save": "Changes are saved automatically",
+    "danger_zone": "This action cannot be undone"
+  }
+}

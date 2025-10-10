@@ -1,0 +1,16 @@
+{
+  "documentation": "[TRANSLATE: documentation] Documentation",
+  "help_center": "[TRANSLATE: help_center] Help Center",
+  "support": "[TRANSLATE: support] Support",
+  "contact_us": "[TRANSLATE: contact_us] Contact Us",
+  "terms_of_service": "[TRANSLATE: terms_of_service] Terms of Service",
+  "privacy_policy": "[TRANSLATE: privacy_policy] Privacy Policy",
+  "about_us": "[TRANSLATE: about_us] About Us",
+  "careers": "[TRANSLATE: careers] Careers",
+  "blog": "[TRANSLATE: blog] Blog",
+  "community": "[TRANSLATE: community] Community",
+  "api_docs": "[TRANSLATE: api_docs] API Documentation",
+  "status_page": "[TRANSLATE: status_page] System Status",
+  "feedback": "[TRANSLATE: feedback] Send Feedback",
+  "report_issue": "[TRANSLATE: report_issue] Report an Issue"
+}

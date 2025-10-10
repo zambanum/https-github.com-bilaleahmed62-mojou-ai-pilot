@@ -1,0 +1,38 @@
+{
+  "general": {
+    "synced": {
+      "save": "[TRANSLATE: general.save] Save changes",
+      "cancel": "[TRANSLATE: general.cancel] Discard changes",
+      "delete": "[TRANSLATE: general.delete] Delete this item",
+      "edit": "[TRANSLATE: general.edit] Edit this item",
+      "export": "[TRANSLATE: general.export] Export to file",
+      "filter": "[TRANSLATE: general.filter] Filter results",
+      "search": "[TRANSLATE: general.search] Search items",
+      "refresh": "[TRANSLATE: general.refresh] Refresh data"
+    },
+    "obsolete": []
+  },
+  "dashboard": {
+    "synced": {
+      "kpi_card": "[TRANSLATE: dashboard.kpi_card] Key performance indicator",
+      "chart_zoom": "[TRANSLATE: dashboard.chart_zoom] Click to zoom",
+      "export_chart": "[TRANSLATE: dashboard.export_chart] Export chart data"
+    },
+    "obsolete": []
+  },
+  "sales": {
+    "synced": {
+      "pipeline_drag": "[TRANSLATE: sales.pipeline_drag] Drag to move between stages",
+      "weighted_amount": "[TRANSLATE: sales.weighted_amount] Amount × Probability",
+      "probability_auto": "[TRANSLATE: sales.probability_auto] Auto-calculated from stage"
+    },
+    "obsolete": []
+  },
+  "settings": {
+    "synced": {
+      "auto_save": "[TRANSLATE: settings.auto_save] Changes are saved automatically",
+      "danger_zone": "[TRANSLATE: settings.danger_zone] This action cannot be undone"
+    },
+    "obsolete": []
+  }
+}

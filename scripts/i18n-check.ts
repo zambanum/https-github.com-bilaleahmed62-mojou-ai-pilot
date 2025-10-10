@@ -9,7 +9,7 @@ function readJSON(p: string) { return JSON.parse(fs.readFileSync(p,'utf8')); }
 
 function keysOf(obj: any, prefix = ''): string[] {
   return Object.entries(obj).flatMap(([k, v]) => {
-    const key = prefix ? ${prefix}. : k;
+    const key = prefix ? `${prefix}.${k}` : k;
     return typeof v === 'object' && v !== null ? keysOf(v, key) : [key];
   });
 }
@@ -17,9 +17,9 @@ function keysOf(obj: any, prefix = ''): string[] {
 let failed = false;
 
 for (const ns of NAMESPACES) {
-  const refPath = path.join(LOCALES_DIR, 'en', ${ns}.json);
+  const refPath = path.join(LOCALES_DIR, 'en', `${ns}.json`);
   if (!fs.existsSync(refPath)) {
-    console.error([i18n] MISSING REFERENCE FILE: en/.json);
+    console.error(`[i18n] MISSING REFERENCE FILE: en/${ns}.json`);
     failed = true;
     continue;
   }
@@ -28,9 +28,9 @@ for (const ns of NAMESPACES) {
   const refKeys = keysOf(ref);
 
   for (const lang of LANGS) {
-    const p = path.join(LOCALES_DIR, lang, ${ns}.json);
+    const p = path.join(LOCALES_DIR, lang, `${ns}.json`);
     if (!fs.existsSync(p)) {
-      console.error([i18n] MISSING FILE: /.json);
+      console.error(`[i18n] MISSING FILE: ${lang}/${ns}.json`);
       failed = true; 
       continue;
     }
@@ -38,7 +38,7 @@ for (const ns of NAMESPACES) {
     const keys = keysOf(data);
     for (const k of refKeys) {
       if (!keys.includes(k)) {
-        console.error([i18n] MISSING KEY: /.json -> );
+        console.error(`[i18n] MISSING KEY: ${lang}/${ns}.json -> ${k}`);
         failed = true;
       }
     }
