@@ -11,6 +11,9 @@
   "preview": "vite preview",
   "i18n:audit": "node scripts/i18n-audit.mjs",
   "i18n:sync": "node scripts/i18n-sync-keys.mjs",
+  "i18n:skeleton": "node scripts/i18n-generate-skeletons.mjs" 
+  "i18n:audit": "node scripts/i18n-audit.mjs",
+  "i18n:sync": "node scripts/i18n-sync-keys.mjs",
   "i18n:skeleton": "node scripts/i18n-generate-skeletons.mjs"
 },
     "i18n:skeleton": "node scripts/i18n-generate-skeletons.mjs",
