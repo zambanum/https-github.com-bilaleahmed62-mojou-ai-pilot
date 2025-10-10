@@ -4,18 +4,18 @@
   },
   "name": "https-github.com-bilaleahmed62-mojou-ai-pilot",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "build:dev": "vite build --mode development",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "i18n:generate": "node scripts/i18n-generate-skeletons.mjs",
-  "i18n:sync": "node scripts/i18n-sync-keys.mjs",
-  "i18n:audit": "node scripts/i18n-audit.mjs",
-  "i18n:check": "tsx scripts/i18n-check.ts",
-  "i18n:coverage": "node scripts/i18n-coverage-report.mjs"
-},
-},
+    "dev": "vite",
+    "build": "vite build",
+    "build:dev": "vite build --mode development",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "i18n:generate": "node scripts/i18n-generate-skeletons.mjs",
+    "i18n:sync": "node scripts/i18n-sync-keys.mjs",
+    "i18n:audit": "node scripts/i18n-audit.mjs",
+    "i18n:check": "tsx scripts/i18n-check.ts",
+    "i18n:coverage": "node scripts/i18n-coverage-report.mjs"
+  },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zambanum/https-github.com-bilaleahmed62-mojou-ai-pilot.git"
@@ -27,4 +27,14 @@
     "url": "https://github.com/zambanum/https-github.com-bilaleahmed62-mojou-ai-pilot/issues"
   },
   "homepage": "https://github.com/zambanum/https-github.com-bilaleahmed62-mojou-ai-pilot#readme"
+}
+,{
+  "name": "my-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "i18n:skeleton": "node scripts/i18n/generate-skeleton.mjs"
+  }
 }
